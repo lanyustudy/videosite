@@ -1,0 +1,146 @@
+body{
+    background-image:url(img/ice1.jpg); /*【这是网页背景图】*/
+    background-color:#EEEEFF;/*【注意：这是整个网页的底色】*/
+    text-align:left;/*【左对齐】*/
+    margin:0 auto;
+    width:100%;
+    clear:both;
+    
+}
+
+a{
+    text-decoration:none;/*【清除链接的下划线】*/
+}
+p{width:400px;}
+.allcontent{
+	background-color:#0000FF;
+	width:100%;
+}
+TEXTAREA{
+    color:FFFFFF;
+    background-color:#000000;
+}
+
+a:hover, a:active{
+}
+
+.mainheader img{
+    width: 30%;/*【导航栏图片属性】*/
+    height:auto;
+    margin:2% 0;
+}
+
+.mainheader nav{
+    background-color:#000;/*【导航栏的背景色】*/
+    height:40px;/*【导航背景的垂直高度，注意这个要根据按钮的位置设置】*/
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+}
+
+.mainheader nav ul li{
+    display:inline;/*【取消列表前的小圆点，并拍成一行】*/
+    /*list-style: none;【仅取消小圆点，仍保持纵向排列】*/
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+    color:#FFF;/*【header中链接的文字颜色】*/
+    display:inline-block;
+    padding:20px 25px;/*【导航按钮的水平、垂直方向上的扩展区域大小】*/
+}
+
+.mainheader nav a:hover, .mainheader nav active，
+.mainheader nav .active a:link, .mainheader nav .acitive a:visited{
+    background-color:#0000FF;/*【鼠标悬停时导 航栏按钮的背景颜色】*/
+    text-shadow:none;
+
+}
+
+.mainheader nav ul li a{
+    border-radius:0px;/*【悬停高亮时可以看到hover区域圆角，它是高亮后才显现，实际上是调节link本身的区域圆角】*/
+}
+
+.allcontent div{
+	float:left;
+}
+
+.maincontent{
+	width:100%;
+}
+
+body article{
+    border-radius:5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#DDDDFF;   
+    overflow:hidden;/*意外发现2021-0307 20:46*：用这个可以使TEXTAREA或或者视频窗口不超出边界*/
+}
+
+.maincontent{
+    width:100%;
+    float:left;
+}
+
+.maincontent article{
+	min-width:200px;
+	background-color:#FFFFFF;
+	padding:20px;
+	margin:20px;
+}
+
+.maincontent article p{
+    text-indent:2em;/*首行缩进*/
+    }
+
+.sidebar{
+    width:30%;
+    float:left;
+}
+
+.sidebar article{
+    background-color:#FFFFFF;
+    margin:3%;
+}
+
+/* 接着继续写属性，让视频铺满整个屏幕，其实给每个视频div加个float属性就可以了，非常简单！ */
+article{
+	width:400px;
+	float:left;
+}
+
+
+
+
+
+
+/*段落首行缩进：<p style="text-indent:2em">这是一个有首行缩进的段落</p>*/
+/*首行缩进标签：<blockquote>*/ 
+
+
+/* 接下来，把做好的网站上传到服务器，服务器有很多，二级域名免费的就一大堆，即便是国外收费的，月费也才29块，比手机费还便宜！但是强烈建议：千万不要用国内的服务器！这些奸商都是造成地球毁灭的根源！如果你看到华为云、腾讯云、阿里云，1元每年的服务器域名，不要用它们！它们没有价值观！你用它们等同于使用微博、bilibili！国外网站虽然也是奸商，但是至少人家有时候能嘴上说一些为环境发声的话，中国互联网商只有造假，只有形式主义的假话！中国科技从业者没人有良心！ 
+
+
+
+注册好了服务器托管账号，我们就可以上传网页文见了！这样，你就会获得一个网址，在全世界哪里访问都可以看到！一般我们选择开源代码托管网站，不用花一分钱！静态网页全免费！
+
+点击上传，它会让你上传网页文件！
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
